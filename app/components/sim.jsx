@@ -69,7 +69,7 @@ const calculateHandValue = (hand) => {
 
 const getCorrectMove = (playerHand, dealerUpCard) => {
   const [playerTotal, soft] = calculateHandValue(playerHand);
-  const dealerValue = dealerUpCard.value === 'A' ? 10 : Math.min(parseInt(dealerUpCard.value) || 10, 10) - 2;
+  const dealerValue = dealerUpCard.value === 'A' ? 11 - 2 : Math.min(parseInt(dealerUpCard.value) || 10, 10) - 2;
 
   let bestMove;
 
