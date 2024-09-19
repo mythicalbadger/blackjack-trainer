@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ArrowRight, X } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
@@ -117,7 +117,7 @@ const BlackjackSimulator = () => {
       
       <div className="flex flex-col items-center">
         <div className="mb-8">
-          <div className="text-xl mb-2">Dealer's Hand</div>
+          <div className="text-xl mb-2">Dealer&apos;s Hand</div>
           <div className="flex">
             <div className="bg-gray-300 w-16 h-24 rounded mr-2"></div>
             <div className="bg-white text-black w-16 h-24 rounded flex items-center justify-center text-2xl">
